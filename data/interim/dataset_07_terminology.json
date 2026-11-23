@@ -1,0 +1,92 @@
+[
+  {
+    "term_id": "TRM-ID-001",
+    "legal_term": "Gugatan Sederhana",
+    "plain_language_definition": "Proses pengadilan perdata yang dibuat lebih cepat dan mudah untuk sengketa bernilai maksimal Rp500 juta dengan pembuktian yang tidak rumit.",
+    "example": "Contoh Hipotetis: Pemilik toko menagih pembayaran barang Rp25 juta yang belum dilunasi pembeli berdasarkan kuitansi perjanjian.",
+    "domain": "LK01",
+    "source_reference": "SRC-ID-2019-PERMA04",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-002",
+    "legal_term": "Verstek",
+    "plain_language_definition": "Putusan hakim yang dijatuhkan tanpa kehadiran pihak tergugat setelah dipanggil secara sah dan patut.",
+    "example": "Contoh Hipotetis: Tergugat tidak hadir pada sidang pertama dan kedua tanpa alasan sah, sehingga hakim memutus perkara secara verstek.",
+    "domain": "LK01",
+    "source_reference": "SRC-ID-2019-PERMA04",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-003",
+    "legal_term": "Ketentuan Peralihan",
+    "plain_language_definition": "Aturan sementara dalam undang-undang baru untuk menjembatani kasus atau peraturan lama agar tidak terjadi kekosongan hukum.",
+    "example": "Contoh Hipotetis: Masa transisi 3 tahun sebelum KUHP Nasional berlaku penuh pada 2 Januari 2026.",
+    "domain": "LK03",
+    "source_reference": "SRC-ID-2023-UU01",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-004",
+    "legal_term": "PKWT (Perjanjian Kerja Waktu Tertentu)",
+    "plain_language_definition": "Kontrak kerja antara pekerja dan pemberi kerja untuk jangka waktu atau pekerjaan tertentu yang bersifat sementara.",
+    "example": "Contoh Hipotetis: Seorang teknisi dikontrak proyek selama 1 tahun berdasarkan perjanjian tertulis.",
+    "domain": "LK05",
+    "source_reference": "SRC-ID-2026-UU27",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-005",
+    "legal_term": "NIB (Nomor Induk Berusaha)",
+    "plain_language_definition": "Identitas resmi pelaku usaha yang diterbitkan pemerintah sebagai tanda legalitas usaha untuk mengakses perizinan dan program pemerintah.",
+    "example": "Contoh Hipotetis: Ibu Ani mendaftarkan usaha warung makan miliknya agar memiliki NIB untuk mengajukan pembiayaan mikro.",
+    "domain": "LK06",
+    "source_reference": "SRC-ID-2021-PP07",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-006",
+    "legal_term": "Sertipikat Elektronik",
+    "plain_language_definition": "Bukti hak atas tanah yang diterbitkan oleh Badan Pertanahan Nasional dalam bentuk dokumen digital bertanda tangan elektronik.",
+    "example": "Contoh Hipotetis: Pemilik tanah menerima dokumen elektronik resmi dengan kode verifikasi sebagai bukti kepemilikan yang sah.",
+    "domain": "LK07",
+    "source_reference": "SRC-ID-2021-PP18",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-007",
+    "legal_term": "Standar Pelayanan Publik",
+    "plain_language_definition": "Tolok ukur resmi yang wajib diumumkan instansi pemerintah tentang syarat, waktu, dan biaya suatu layanan bagi masyarakat.",
+    "example": "Contoh Hipotetis: Papan informasi di kantor kecamatan yang mencantumkan waktu penyelesaian surat keterangan dan tarif resmi.",
+    "domain": "LK08",
+    "source_reference": "SRC-ID-2009-UU25",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-008",
+    "legal_term": "BPSK (Badan Penyelesaian Sengketa Konsumen)",
+    "plain_language_definition": "Lembaga di luar pengadilan yang bertugas membantu menyelesaikan sengketa antara konsumen dan pelaku usaha melalui mediasi, konsiliasi, atau arbitrase.",
+    "example": "Contoh Hipotetis: Pembeli mengajukan aduan ke BPSK karena barang elektronik baru rusak dan penjual menolak garansi resmi.",
+    "domain": "LK09",
+    "source_reference": "SRC-ID-1999-UU08",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-009",
+    "legal_term": "OBH (Organisasi Bantuan Hukum)",
+    "plain_language_definition": "Lembaga atau organisasi kemasyarakatan yang telah lulus akreditasi negara untuk memberikan bantuan hukum gratis bagi warga tidak mampu.",
+    "example": "Contoh Hipotetis: Warga kurang mampu mendatangi OBH terakreditasi BPHN untuk mendapatkan pendampingan perkara perdata.",
+    "domain": "LK10",
+    "source_reference": "SRC-ID-2011-UU16",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "term_id": "TRM-ID-010",
+    "legal_term": "Subjek Data Pribadi",
+    "plain_language_definition": "Orang perseorangan yang data pribadinya (seperti nama, NIK, atau data kesehatan) dikumpulkan atau diproses oleh suatu pihak.",
+    "example": "Contoh Hipotetis: Pengguna aplikasi pinjaman daring yang berhak meminta perbaikan apabila data namanya tercatat keliru.",
+    "domain": "LK11",
+    "source_reference": "SRC-ID-2022-UU27",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  }
+]

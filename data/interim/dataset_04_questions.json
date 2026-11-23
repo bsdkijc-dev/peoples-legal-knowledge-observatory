@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "QST-ID-001",
+    "question_text": "Berapa batas nilai sengketa maksimal untuk mengajukan Gugatan Sederhana dan apakah bisa daftar secara online?",
+    "audience_category": "Micro and small enterprises",
+    "legal_domain": "LK01",
+    "source_ids": ["SRC-ID-2015-PERMA02", "SRC-ID-2019-PERMA04"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-002",
+    "question_text": "Kapan KUHP Nasional (UU No. 1 Tahun 2023) mulai berlaku dan apa fungsi UU No. 1 Tahun 2026?",
+    "audience_category": "General public",
+    "legal_domain": "LK03",
+    "source_ids": ["SRC-ID-2023-UU01", "SRC-ID-2026-UU01"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-003",
+    "question_text": "Berapa usia minimal yang diperbolehkan undang-undang untuk menikah bagi perempuan dan laki-laki di Indonesia?",
+    "audience_category": "Women and families",
+    "legal_domain": "LK04",
+    "source_ids": ["SRC-ID-2019-UU16"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-004",
+    "question_text": "Apakah perusahaan boleh menahan ijazah asli pekerja sebagai jaminan kerja menurut aturan ketenagakerjaan terbaru 2026?",
+    "audience_category": "Workers and informal workers",
+    "legal_domain": "LK05",
+    "source_ids": ["SRC-ID-2026-UU27"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-005",
+    "question_text": "Aturan apa yang menentukan kategori usaha mikro, kecil, dan menengah (UMKM) saat mendaftarkan usaha?",
+    "audience_category": "Micro and small enterprises",
+    "legal_domain": "LK06",
+    "source_ids": ["SRC-ID-2021-PP07"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-006",
+    "question_text": "Apakah pendaftaran tanah saat ini bisa dilakukan secara elektronik?",
+    "audience_category": "Rural communities",
+    "legal_domain": "LK07",
+    "source_ids": ["SRC-ID-2021-PP18"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-007",
+    "question_text": "Apakah warga berhak mengetahui standar pelayanan dan mengawasi pelayanan publik di kantor pemerintah?",
+    "audience_category": "Village-level public service providers",
+    "legal_domain": "LK08",
+    "source_ids": ["SRC-ID-2009-UU25"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-008",
+    "question_text": "Apa saja hak dasar konsumen jika membeli barang atau menggunakan jasa di Indonesia?",
+    "audience_category": "General public",
+    "legal_domain": "LK09",
+    "source_ids": ["SRC-ID-1999-UU08"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-009",
+    "question_text": "Apakah warga tidak mampu bisa mendapatkan pendampingan pengacara secara gratis dari negara?",
+    "audience_category": "Rural communities",
+    "legal_domain": "LK10",
+    "source_ids": ["SRC-ID-2011-UU16"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "question_id": "QST-ID-010",
+    "question_text": "Berapa lama batas waktu bagi pengelola sistem untuk memperbaiki data pribadi kita yang salah setelah kita meminta perbaikan?",
+    "audience_category": "General public",
+    "legal_domain": "LK11",
+    "source_ids": ["SRC-ID-2022-UU27"],
+    "response_status": "DRAFTED",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "content_id": "AVC-SYNTH-001",
+    "format": "AUDIO_SCRIPT",
+    "title": "[SYNTHETIC TEST] Naskah Audio Contoh 60 Detik",
+    "script": "[SYNTHETIC TEST] Halo warga, ini adalah naskah audio contoh untuk pengujian aksesibilitas.",
+    "source_references": [
+      "SRC-SYNTH-001"
+    ],
+    "target_audience": "Persons with disabilities",
+    "accessibility_status": "SYNTHETIC_TEST",
+    "approval_status": "SYNTHETIC_TEST"
+  }
+]

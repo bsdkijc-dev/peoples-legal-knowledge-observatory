@@ -1,0 +1,11 @@
+[
+  {
+    "assessment_id": "ASM-SYNTH-001",
+    "topic": "Akses Bantuan Hukum (Synthetic)",
+    "question": "[SYNTHETIC TEST] Manakah kanal resmi untuk mencari OBH terakreditasi?",
+    "correct_answer_reference": "PRV-SYNTH-001",
+    "difficulty": "BASIC",
+    "learning_objective": "Mengidentifikasi layanan resmi bantuan hukum",
+    "reviewer_status": "SYNTHETIC_TEST"
+  }
+]

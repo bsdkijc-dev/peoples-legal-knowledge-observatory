@@ -1,0 +1,16 @@
+[
+  {
+    "update_id": "UPD-SYNTH-001",
+    "source_id": "SRC-SYNTH-001",
+    "change_type": "AMENDMENT",
+    "affected_provisions": [
+      "PRV-SYNTH-001"
+    ],
+    "affected_content_ids": [
+      "KNW-SYNTH-001"
+    ],
+    "impact_assessment": "[SYNTHETIC TEST] Simulasi deteksi perubahan regulasi.",
+    "review_status": "SYNTHETIC_TEST",
+    "update_date": "2026-11-23"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "title": "People's Legal Knowledge Observatory (PLKO) — Safe Mode Pilot Metadata & Synthetic Fixtures",
+  "id": "judicialcollege/peoples-legal-knowledge-observatory",
+  "licenses": [
+    {
+      "name": "MIT"
+    }
+  ],
+  "keywords": [
+    "law",
+    "indonesia",
+    "legal-literacy",
+    "access-to-justice",
+    "open-data"
+  ],
+  "subtitle": "Authoritative Indonesian legal source register, 12 JSON schemas, and synthetic test fixtures (SAFE MODE)",
+  "description": "Independent public-interest research dataset under the MA Open Justice & Public Prosperity Initiative 2027-2030. Contains verified Indonesian legal source metadata (Dataset 01) and synthetic test fixtures (Datasets 01-12). Unreviewed plain-language drafts are excluded pending human legal review."
+}

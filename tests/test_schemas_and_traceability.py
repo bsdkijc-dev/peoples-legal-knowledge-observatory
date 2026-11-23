@@ -1,4 +1,5 @@
 import json
+import re
 import shutil
 import tempfile
 import unittest
@@ -12,6 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 SYNTH_DIR = REPO_ROOT / "data" / "synthetic"
 INTERIM_DIR = REPO_ROOT / "data" / "interim"
+NIK_PATTERN = re.compile(r"\b\d{16}\b")
 
 
 class TestPLKOValidation(unittest.TestCase):
@@ -24,24 +26,44 @@ class TestPLKOValidation(unittest.TestCase):
         ok, errors = validate_directory(SYNTH_DIR, SCHEMAS_DIR)
         self.assertTrue(ok, f"Unexpected errors: {errors}")
 
-    def test_interim_sources_and_provisions_pass_schema_and_traceability(self):
-        ds01_path = INTERIM_DIR / "dataset_01_legal_sources.json"
-        ds02_path = INTERIM_DIR / "dataset_02_legal_provisions.json"
-        self.assertTrue(ds01_path.exists())
-        self.assertTrue(ds02_path.exists())
+    def test_interim_datasets_01_to_07_pass_schema_and_traceability(self):
+        interim_files = [
+            ("dataset_01_legal_sources.json", "legal-sources.schema.json"),
+            ("dataset_02_legal_provisions.json", "legal-provisions.schema.json"),
+            ("dataset_03_knowledge_articles.json", "knowledge-articles.schema.json"),
+            ("dataset_04_questions.json", "questions.schema.json"),
+            ("dataset_05_answers.json", "answers.schema.json"),
+            ("dataset_06_procedure_guides.json", "procedure-guides.schema.json"),
+            ("dataset_07_terminology.json", "terminology.schema.json"),
+        ]
+        loaded = {}
+        for d_name, s_name in interim_files:
+            d_path = INTERIM_DIR / d_name
+            self.assertTrue(d_path.exists(), f"Missing {d_name}")
+            data = json.loads(d_path.read_text(encoding="utf-8"))
+            schema = json.loads((SCHEMAS_DIR / s_name).read_text(encoding="utf-8"))
+            jsonschema.validate(instance=data, schema=schema)
+            self.assertFalse(NIK_PATTERN.search(json.dumps(data)), f"Potential PII in {d_name}")
+            loaded[d_name] = data
 
-        ds01 = json.loads(ds01_path.read_text(encoding="utf-8"))
-        ds02 = json.loads(ds02_path.read_text(encoding="utf-8"))
-        s01 = json.loads((SCHEMAS_DIR / "legal-sources.schema.json").read_text(encoding="utf-8"))
-        s02 = json.loads((SCHEMAS_DIR / "legal-provisions.schema.json").read_text(encoding="utf-8"))
+        source_ids = {r["source_id"] for r in loaded["dataset_01_legal_sources.json"]}
+        provision_ids = {r["provision_id"] for r in loaded["dataset_02_legal_provisions.json"]}
+        question_ids = {r["question_id"] for r in loaded["dataset_04_questions.json"]}
 
-        jsonschema.validate(instance=ds01, schema=s01)
-        jsonschema.validate(instance=ds02, schema=s02)
-
-        source_ids = {row["source_id"] for row in ds01}
-        self.assertGreaterEqual(len(ds02), 10)
-        for row in ds02:
-            self.assertIn(row["source_id"], source_ids, f"Orphan source_id in {row['provision_id']}")
+        for r in loaded["dataset_02_legal_provisions.json"]:
+            self.assertIn(r["source_id"], source_ids)
+        for r in loaded["dataset_03_knowledge_articles.json"]:
+            for sid in r["source_ids"]:
+                self.assertIn(sid, source_ids)
+        for r in loaded["dataset_04_questions.json"]:
+            for sid in r["source_ids"]:
+                self.assertIn(sid, source_ids)
+        for r in loaded["dataset_05_answers.json"]:
+            self.assertIn(r["question_id"], question_ids)
+            for pid in r["source_provisions"]:
+                self.assertIn(pid, provision_ids)
+        for r in loaded["dataset_07_terminology.json"]:
+            self.assertIn(r["source_reference"], source_ids)
 
     def test_orphan_source_id_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -1,0 +1,11 @@
+[
+  {
+    "term_id": "TRM-SYNTH-001",
+    "legal_term": "Gugatan Sederhana (Synthetic)",
+    "plain_language_definition": "[SYNTHETIC TEST] Penjelasan istilah hukum dalam bahasa sehari-hari.",
+    "example": "Contoh Hipotetis: Sengketa jual beli kecil.",
+    "domain": "LK01",
+    "source_reference": "SRC-SYNTH-001",
+    "review_status": "SYNTHETIC_TEST"
+  }
+]
