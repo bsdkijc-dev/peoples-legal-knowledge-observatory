@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 09: Legal Literacy Assessment",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "assessment_id",
+      "topic",
+      "question",
+      "correct_answer_reference",
+      "difficulty",
+      "learning_objective",
+      "reviewer_status"
+    ],
+    "properties": {
+      "assessment_id": {
+        "type": "string",
+        "pattern": "^ASM-[A-Z0-9-]+$"
+      },
+      "topic": {
+        "type": "string"
+      },
+      "question": {
+        "type": "string"
+      },
+      "correct_answer_reference": {
+        "type": "string",
+        "pattern": "^PRV-[A-Z0-9-]+$"
+      },
+      "difficulty": {
+        "type": "string",
+        "enum": [
+          "BASIC",
+          "INTERMEDIATE",
+          "ADVANCED"
+        ]
+      },
+      "learning_objective": {
+        "type": "string"
+      },
+      "reviewer_status": {
+        "type": "string",
+        "enum": [
+          "PENDING_HUMAN_REVIEW",
+          "APPROVED",
+          "SYNTHETIC_TEST"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

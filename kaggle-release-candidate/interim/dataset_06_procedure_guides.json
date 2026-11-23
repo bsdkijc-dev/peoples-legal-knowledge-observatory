@@ -1,0 +1,81 @@
+[
+  {
+    "guide_id": "GDE-ID-001",
+    "procedure_name": "Pendaftaran Gugatan Sederhana (Small Claims) via e-Court [DRAFT - REQUIRES HUMAN REVIEW]",
+    "jurisdiction": "Pengadilan Negeri (Nasional)",
+    "eligibility": "Pihak dalam sengketa perdata cidera janji atau perbuatan melawan hukum dengan nilai gugatan materiil maksimal Rp500.000.000,00 (Perma No. 4 Tahun 2019).",
+    "required_documents": [
+      "Identitas penggugat (KTP)",
+      "Surat gugatan sederhana dan bukti tertulis",
+      "Identitas/alamat tergugat (dan surat kuasa insidentil jika diperlukan sesuai Perma No. 4 Tahun 2019)"
+    ],
+    "process_steps": [
+      "Periksa kesesuaian syarat sengketa dan batas nilai gugatan maksimal Rp500 juta sesuai Perma No. 4 Tahun 2019.",
+      "Siapkan surat gugatan dan bukti pendukung.",
+      "Daftarkan akun dan perkara melalui portal resmi e-Court Mahkamah Agung RI atau loket PTSP Pengadilan Negeri setempat.",
+      "Ikuti panggilan sidang dan proses pemeriksaan sederhana hingga putusan."
+    ],
+    "official_fee_reference": "Mengikuti SK Panjar Biaya Perkara masing-masing Pengadilan Negeri (tidak ditetapkan seragam dalam panduan ini).",
+    "official_service_url": "https://ecourt.mahkamahagung.go.id/",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "guide_id": "GDE-ID-002",
+    "procedure_name": "Permohonan Bantuan Hukum Gratis (OBH BPHN) [DRAFT - REQUIRES HUMAN REVIEW]",
+    "jurisdiction": "Nasional & Pemerintah Daerah",
+    "eligibility": "Orang atau sekelompok orang miskin yang tidak dapat memenuhi hak dasar secara layak dan mandiri (UU No. 16 Tahun 2011).",
+    "required_documents": [
+      "Kartu Tanda Penduduk (KTP) atau identitas diri",
+      "Surat Keterangan Tidak Mampu (SKTM) atau dokumen kepesertaan program jaminan sosial pemerintah sesuai ketentuan setempat",
+      "Dokumen terkait perkara hukum yang dihadapi"
+    ],
+    "process_steps": [
+      "Cek daftar Organisasi Bantuan Hukum (OBH) terakreditasi periode 2025-2027 di portal resmi BPHN.",
+      "Siapkan identitas diri dan bukti kondisi tidak mampu.",
+      "Ajukan permohonan bantuan hukum secara tertulis/lisan kepada OBH terakreditasi terdekat.",
+      "Tunggu verifikasi kelayakan oleh OBH tanpa dipungut biaya apa pun."
+    ],
+    "official_fee_reference": "Gratis (didanai negara melalui APBN/APBD; pemberi bantuan hukum dilarang memungut biaya dari penerima).",
+    "official_service_url": "https://bphn.go.id/layanan/bantuan-hukum",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "guide_id": "GDE-ID-003",
+    "procedure_name": "Pendaftaran Tanah Secara Elektronik (Orientasi Awal) [DRAFT - REQUIRES HUMAN REVIEW]",
+    "jurisdiction": "Kantor Pertanahan (ATR/BPN)",
+    "eligibility": "Pemegang hak atas tanah atau pihak yang mengajukan pendaftaran/pemeliharaan data pertanahan sesuai PP No. 18 Tahun 2021.",
+    "required_documents": [
+      "Identitas pemohon",
+      "Dokumen alas hak atau bukti kepemilikan/penguasaan tanah",
+      "Data fisik dan yuridis bidang tanah untuk verifikasi Kantor Pertanahan"
+    ],
+    "process_steps": [
+      "Konsultasikan kesiapan layanan elektronik di Kantor Pertanahan kabupaten/kota setempat.",
+      "Siapkan berkas data fisik dan data yuridis kepemilikan tanah.",
+      "Lakukan pemeriksaan data fisik (pengukuran/batas) dan penelitian data yuridis sesuai ketentuan PP No. 18 Tahun 2021.",
+      "Terima dokumen/sertipikat elektronik yang dilengkapi tanda tangan elektronik."
+    ],
+    "official_fee_reference": "Mengikuti tarif PNBP resmi layanan pertanahan pada Kementerian ATR/BPN.",
+    "official_service_url": "https://peraturan.bpk.go.id/Details/161848/pp-no-18-tahun-2021",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "guide_id": "GDE-ID-004",
+    "procedure_name": "Penyampaian Pengaduan Pelayanan Publik [DRAFT - REQUIRES HUMAN REVIEW]",
+    "jurisdiction": "Penyelenggara Pelayanan Publik (Pusat & Daerah)",
+    "eligibility": "Setiap warga negara atau penduduk penerima layanan publik (UU No. 25 Tahun 2009).",
+    "required_documents": [
+      "Identitas pengadu",
+      "Uraian kronologi ketidaksesuaian layanan terhadap standar pelayanan publik",
+      "Bukti pendukung layanan (tanda terima, nomor antrean, atau tangkapan layar)"
+    ],
+    "process_steps": [
+      "Periksa standar pelayanan yang wajib diumumkan oleh instansi penyelenggara (Pasal 18 UU No. 25 Tahun 2009).",
+      "Sampaikan pengaduan pertama kali melalui kanal pengaduan resmi instansi penyelenggara tersebut.",
+      "Jika tidak ditindaklanjuti sesuai ketentuan, eskalasikan pengaduan ke lembaga pengawas eksternal seperti Ombudsman RI."
+    ],
+    "official_fee_reference": "Gratis (layanan pengaduan publik tidak dipungut biaya).",
+    "official_service_url": "https://peraturan.bpk.go.id/Details/38748/uu-no-25-tahun-2009",
+    "verification_date": "2026-11-23"
+  }
+]

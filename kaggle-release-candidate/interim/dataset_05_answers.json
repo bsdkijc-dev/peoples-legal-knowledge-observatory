@@ -1,0 +1,92 @@
+[
+  {
+    "answer_id": "ANS-ID-001",
+    "question_id": "QST-ID-001",
+    "answer_text": "Berdasarkan Perma No. 4 Tahun 2019 (mengubah Perma No. 2 Tahun 2015), batas nilai gugatan materiil Gugatan Sederhana adalah paling banyak Rp500.000.000,00 dan penggugat dapat mendaftarkan gugatan secara elektronik melalui e-Court Mahkamah Agung RI.",
+    "source_provisions": ["PRV-ID-LK01-001"],
+    "limitations": "Pengecualian jenis sengketa (seperti sengketa hak atas tanah atau pengadilan khusus) dan besaran panjar biaya perkara di tiap Pengadilan Negeri harus diverifikasi langsung sebelum mendaftar. Menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-002",
+    "question_id": "QST-ID-002",
+    "answer_text": "UU No. 1 Tahun 2023 tentang KUHP mulai berlaku pada 2 Januari 2026 (3 tahun sejak diundangkan). Bersamaan dengan itu, UU No. 1 Tahun 2026 tentang Penyesuaian Pidana berlaku pada 2 Januari 2026 untuk menyelaraskan ketentuan pidana dalam undang-undang di luar KUHP dan peraturan daerah dengan Buku Kesatu KUHP Nasional.",
+    "source_provisions": ["PRV-ID-LK03-001", "PRV-ID-LK03-002"],
+    "limitations": "Penomoran pasal rinci pada UU No. 1 Tahun 2026 masih memerlukan verifikasi naskah lengkap oleh peninjau hukum manusia. Bukan nasihat hukum individual.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-003",
+    "question_id": "QST-ID-003",
+    "answer_text": "Menurut Pasal 7 UU No. 1 Tahun 1974 sebagaimana diubah dengan UU No. 16 Tahun 2019, perkawinan hanya diizinkan apabila pria dan wanita sudah mencapai umur 19 (sembilan belas) tahun.",
+    "source_provisions": ["PRV-ID-LK04-001"],
+    "limitations": "Informasi ini menjelaskan batas usia umum dan tidak membahas prosedur permohonan dispensasi kawin di pengadilan secara individual. Menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-004",
+    "question_id": "QST-ID-004",
+    "answer_text": "Berdasarkan ringkasan resmi UU No. 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan (berlaku 28 Oktober 2026, mencabut UU No. 13 Tahun 2003), terdapat larangan bagi pemberi kerja untuk mensyaratkan dan menahan ijazah dan/atau dokumen pribadi milik pekerja/buruh sebagai jaminan dalam hubungan kerja.",
+    "source_provisions": ["PRV-ID-LK05-001"],
+    "limitations": "Nomor pasal spesifik dan sanksi dalam batang tubuh UU No. 27 Tahun 2026 serta peraturan pelaksanaannya (batas waktu 1 tahun sejak diundangkan) masih berstatus UNVERIFIED menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-005",
+    "question_id": "QST-ID-005",
+    "answer_text": "Kriteria skala usaha mikro, kecil, dan menengah diatur dalam Pasal 35 dan Pasal 36 PP No. 7 Tahun 2021, yang menggunakan indikator modal usaha untuk pendirian/pendaftaran dan hasil penjualan tahunan untuk pemberdayaan UMKM.",
+    "source_provisions": ["PRV-ID-LK06-001", "PRV-ID-LK06-002"],
+    "limitations": "Persyaratan teknis perizinan berusaha berbasis risiko mengikuti ketentuan OSS dan peraturan pelaksana terkait. Menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-006",
+    "question_id": "QST-ID-006",
+    "answer_text": "Ya. Berdasarkan Pasal 84 ayat (1) PP No. 18 Tahun 2021, penyelenggaraan dan pelaksanaan pendaftaran tanah dapat dilakukan secara elektronik.",
+    "source_provisions": ["PRV-ID-LK07-001"],
+    "limitations": "Kesiapan layanan sertipikat elektronik dapat berbeda antar Kantor Pertanahan dan diatur lebih lanjut oleh peraturan menteri ATR/BPN. Menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-007",
+    "question_id": "QST-ID-007",
+    "answer_text": "Ya. Pasal 18 UU No. 25 Tahun 2009 menjamin hak masyarakat untuk mengetahui kebenaran isi standar pelayanan, dan Pasal 39 mengatur peran serta masyarakat mulai dari penyusunan standar hingga evaluasi serta pembentukan lembaga pengawasan.",
+    "source_provisions": ["PRV-ID-LK08-001", "PRV-ID-LK08-002"],
+    "limitations": "Mekanisme pengaduan spesifik mengikuti kanal masing-masing instansi penyelenggara dan Ombudsman RI. Menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-008",
+    "question_id": "QST-ID-008",
+    "answer_text": "Pasal 4 UU No. 8 Tahun 1999 menjamin hak konsumen atas kenyamanan, keamanan, dan keselamatan, hak memilih barang/jasa, hak memperoleh informasi yang benar, jelas, dan jujur, hak didengar keluhannya, serta hak memperoleh advokasi dan penyelesaian sengketa secara patut.",
+    "source_provisions": ["PRV-ID-LK09-001"],
+    "limitations": "UU No. 8 Tahun 1999 tercatat memiliki permohonan uji materi (Putusan MK No. 235/PUU-XXIII/2025); dampak spesifik terhadap norma terkait perlu dipastikan oleh peninjau hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-009",
+    "question_id": "QST-ID-009",
+    "answer_text": "Ya. Berdasarkan UU No. 16 Tahun 2011 tentang Bantuan Hukum, negara mendanai pemberian bantuan hukum gratis bagi orang atau kelompok orang miskin melalui Organisasi Bantuan Hukum (OBH) terakreditasi BPHN, baik untuk perkara litigasi maupun nonlitigasi.",
+    "source_provisions": ["PRV-ID-LK10-001"],
+    "limitations": "Pemohon wajib memenuhi syarat pembuktian kondisi tidak mampu (seperti SKTM atau dokumen program kesejahteraan sesuai peraturan daerah setempat) dan menghubungi OBH terakreditasi. Menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  },
+  {
+    "answer_id": "ANS-ID-010",
+    "question_id": "QST-ID-010",
+    "answer_text": "Berdasarkan Pasal 30 ayat (1) UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi, Pengendali Data Pribadi wajib memperbarui dan/atau memperbaiki kesalahan dan/atau ketidakakuratan Data Pribadi paling lambat 3 x 24 jam sejak menerima permintaan pembaruan dan/atau perbaikan.",
+    "source_provisions": ["PRV-ID-LK11-001"],
+    "limitations": "Tata cara pengajuan permintaan dan pengecualian hukum tertentu mengikuti ketentuan lengkap UU PDP. Menunggu tinjauan hukum manusia.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW",
+    "verification_date": "2026-11-23"
+  }
+]

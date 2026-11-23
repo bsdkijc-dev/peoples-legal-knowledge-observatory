@@ -1,0 +1,102 @@
+[
+  {
+    "knowledge_id": "KNW-ID-001",
+    "title": "Cara Mengajukan Gugatan Sederhana di Pengadilan",
+    "legal_domain": "LK01",
+    "audience": ["General public", "Micro and small enterprises"],
+    "plain_language_summary": "Gugatan Sederhana adalah jalur pemeriksaan perkara perdata yang lebih cepat dan sederhana untuk sengketa cidera janji atau perbuatan melawan hukum dengan nilai gugatan materiil maksimal Rp500 juta sesuai Perma No. 4 Tahun 2019, dan dapat didaftarkan melalui layanan resmi e-Court Mahkamah Agung RI.",
+    "source_ids": ["SRC-ID-2015-PERMA02", "SRC-ID-2019-PERMA04"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-002",
+    "title": "Pemberlakuan KUHP Nasional 2026 dan Penyesuaian Pidana",
+    "legal_domain": "LK03",
+    "audience": ["General public", "Students and educators", "Community legal assistance organizations"],
+    "plain_language_summary": "Mulai 2 Januari 2026, Kitab Undang-Undang Hukum Pidana (KUHP) Nasional berdasarkan UU No. 1 Tahun 2023 resmi berlaku menggantikan ketentuan pidana lama tertentu sebagaimana diatur dalam Pasal 622 ayat (1), bersama UU No. 1 Tahun 2026 tentang Penyesuaian Pidana untuk menyelaraskan aturan pidana di luar KUHP.",
+    "source_ids": ["SRC-ID-2023-UU01", "SRC-ID-2026-UU01"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-003",
+    "title": "Batas Usia Minimal Perkawinan (19 Tahun) dan Perlindungan Anak",
+    "legal_domain": "LK04",
+    "audience": ["Women and families", "Rural communities"],
+    "plain_language_summary": "Berdasarkan UU No. 16 Tahun 2019 yang mengubah Pasal 7 UU No. 1 Tahun 1974, batas usia minimal untuk melangsungkan perkawinan bagi pria dan wanita disamakan menjadi 19 tahun guna mencegah perkawinan anak dan melindungi hak tumbuh kembang anak.",
+    "source_ids": ["SRC-ID-2019-UU16"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-004",
+    "title": "Hak Pekerja 2026: Batas PKWT dan Larangan Penahanan Ijazah",
+    "legal_domain": "LK05",
+    "audience": ["Workers and informal workers", "Micro and small enterprises"],
+    "plain_language_summary": "UU No. 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan (berlaku sejak 28 Oktober 2026) mencabut UU No. 13 Tahun 2003, melarang pemberi kerja menahan ijazah atau dokumen pribadi pekerja sebagai jaminan, membatasi kontrak PKWT maksimal 2 tahun (dapat diperpanjang maksimal 2 kali masing-masing 1 tahun), serta mengatur jaminan sosial bagi pekerja sektor informal.",
+    "source_ids": ["SRC-ID-2026-UU27"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-005",
+    "title": "Kriteria UMKM dan Kemudahan Pengelolaan Terpadu",
+    "legal_domain": "LK06",
+    "audience": ["Micro and small enterprises"],
+    "plain_language_summary": "PP No. 7 Tahun 2021 (Pasal 35 dan Pasal 36) menetapkan kriteria skala usaha mikro, kecil, dan menengah berdasarkan modal usaha atau penjualan tahunan, serta mengatur kemudahan pengelolaan terpadu bagi kelompok usaha mikro dan kecil (Pasal 69) dan penyediaan tempat promosi pada infrastruktur publik.",
+    "source_ids": ["SRC-ID-2021-PP07"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-006",
+    "title": "Pendaftaran Tanah Secara Elektronik dan Sertipikat Elektronik",
+    "legal_domain": "LK07",
+    "audience": ["Rural communities", "General public"],
+    "plain_language_summary": "Sesuai Pasal 84 PP No. 18 Tahun 2021, penyelenggaraan pendaftaran tanah dapat dilakukan secara elektronik sehingga hasil pendaftaran hak atas tanah dapat diterbitkan dalam bentuk dokumen/sertipikat elektronik yang sah.",
+    "source_ids": ["SRC-ID-2021-PP18"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-007",
+    "title": "Hak Warga atas Standar Pelayanan Publik dan Pengaduan",
+    "legal_domain": "LK08",
+    "audience": ["General public", "Village-level public service providers"],
+    "plain_language_summary": "UU No. 25 Tahun 2009 menjamin hak masyarakat untuk mengetahui kebenaran isi standar pelayanan publik (Pasal 18) serta berperan aktif sejak penyusunan standar hingga evaluasi dan pengawasan pelayanan (Pasal 39).",
+    "source_ids": ["SRC-ID-2009-UU25"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-008",
+    "title": "Hak Dasar Konsumen dalam Transaksi Barang dan Jasa",
+    "legal_domain": "LK09",
+    "audience": ["General public", "Micro and small enterprises"],
+    "plain_language_summary": "Pasal 4 UU No. 8 Tahun 1999 melindungi hak konsumen atas kenyamanan, keamanan, dan keselamatan, hak memilih barang/jasa, hak memperoleh informasi yang benar dan jujur, serta hak atas advokasi dan penyelesaian sengketa konsumen.",
+    "source_ids": ["SRC-ID-1999-UU08"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-009",
+    "title": "Bantuan Hukum Gratis bagi Warga Tidak Mampu",
+    "legal_domain": "LK10",
+    "audience": ["Rural communities", "Workers and informal workers", "Persons with disabilities", "Community legal assistance organizations"],
+    "plain_language_summary": "UU No. 16 Tahun 2011 menjamin layanan bantuan hukum gratis (litigasi dan nonlitigasi) bagi orang atau kelompok orang miskin melalui Organisasi Bantuan Hukum (OBH) yang terakreditasi oleh BPHN/Kementerian Hukum.",
+    "source_ids": ["SRC-ID-2011-UU16"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  },
+  {
+    "knowledge_id": "KNW-ID-010",
+    "title": "Hak Subjek Data Pribadi dan Etika Informasi Elektronik",
+    "legal_domain": "LK11",
+    "audience": ["General public", "Students and educators", "Micro and small enterprises"],
+    "plain_language_summary": "UU No. 27 Tahun 2022 mewajibkan pengendali data memproses data pribadi secara terbatas, sah, dan transparan (Pasal 27) serta memperbaiki kesalahan data maksimal 3x24 jam (Pasal 30). Sementara itu, ketentuan pencemaran nama baik dalam UU No. 1 Tahun 2024 (Pasal 27A) tunduk pada pemaknaan bersyarat Putusan MKRI No. 105/PUU-XXII/2024.",
+    "source_ids": ["SRC-ID-2022-UU27", "SRC-ID-2024-UU01"],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "last_verified_date": "2026-11-23"
+  }
+]

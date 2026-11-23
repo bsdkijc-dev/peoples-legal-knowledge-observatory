@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 03: Legal Knowledge Articles",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "knowledge_id",
+      "title",
+      "legal_domain",
+      "audience",
+      "plain_language_summary",
+      "source_ids",
+      "review_status",
+      "last_verified_date"
+    ],
+    "properties": {
+      "knowledge_id": {
+        "type": "string",
+        "pattern": "^KNW-[A-Z0-9-]+$"
+      },
+      "title": {
+        "type": "string"
+      },
+      "legal_domain": {
+        "type": "string",
+        "enum": [
+          "LK01",
+          "LK02",
+          "LK03",
+          "LK04",
+          "LK05",
+          "LK06",
+          "LK07",
+          "LK08",
+          "LK09",
+          "LK10",
+          "LK11",
+          "LK12"
+        ]
+      },
+      "audience": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "plain_language_summary": {
+        "type": "string"
+      },
+      "source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^SRC-[A-Z0-9-]+$"
+        },
+        "minItems": 1
+      },
+      "review_status": {
+        "type": "string",
+        "enum": [
+          "PENDING_HUMAN_REVIEW",
+          "IN_LEGAL_REVIEW",
+          "APPROVED",
+          "REJECTED",
+          "SYNTHETIC_TEST"
+        ]
+      },
+      "last_verified_date": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "additionalProperties": false
+  }
+}

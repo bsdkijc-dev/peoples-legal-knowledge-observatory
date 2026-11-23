@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 05: Verified Legal Answers",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "answer_id",
+      "question_id",
+      "answer_text",
+      "source_provisions",
+      "limitations",
+      "reviewer_status",
+      "verification_date"
+    ],
+    "properties": {
+      "answer_id": {
+        "type": "string",
+        "pattern": "^ANS-[A-Z0-9-]+$"
+      },
+      "question_id": {
+        "type": "string",
+        "pattern": "^QST-[A-Z0-9-]+$"
+      },
+      "answer_text": {
+        "type": "string"
+      },
+      "source_provisions": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^PRV-[A-Z0-9-]+$"
+        },
+        "minItems": 1
+      },
+      "limitations": {
+        "type": "string"
+      },
+      "reviewer_status": {
+        "type": "string",
+        "enum": [
+          "PENDING_HUMAN_REVIEW",
+          "APPROVED",
+          "REJECTED",
+          "SYNTHETIC_TEST"
+        ]
+      },
+      "verification_date": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "additionalProperties": false
+  }
+}

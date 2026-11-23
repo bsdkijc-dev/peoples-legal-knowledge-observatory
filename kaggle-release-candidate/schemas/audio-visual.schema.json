@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 08: Legal Audio and Visual Content",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "content_id",
+      "format",
+      "title",
+      "script",
+      "source_references",
+      "target_audience",
+      "accessibility_status",
+      "approval_status"
+    ],
+    "properties": {
+      "content_id": {
+        "type": "string",
+        "pattern": "^AVC-[A-Z0-9-]+$"
+      },
+      "format": {
+        "type": "string",
+        "enum": [
+          "AUDIO_SCRIPT",
+          "INFOGRAPHIC",
+          "LOW_BANDWIDTH_TEXT",
+          "PRINTABLE_GUIDE"
+        ]
+      },
+      "title": {
+        "type": "string"
+      },
+      "script": {
+        "type": "string"
+      },
+      "source_references": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^SRC-[A-Z0-9-]+$"
+        },
+        "minItems": 1
+      },
+      "target_audience": {
+        "type": "string"
+      },
+      "accessibility_status": {
+        "type": "string",
+        "enum": [
+          "PENDING_ACCESSIBILITY_REVIEW",
+          "ACCESSIBLE_VERIFIED",
+          "SYNTHETIC_TEST"
+        ]
+      },
+      "approval_status": {
+        "type": "string",
+        "enum": [
+          "DRAFT",
+          "PENDING_HUMAN_REVIEW",
+          "APPROVED",
+          "SYNTHETIC_TEST"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

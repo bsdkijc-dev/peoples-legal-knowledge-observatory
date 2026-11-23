@@ -1,0 +1,112 @@
+[
+  {
+    "record_id": "PRVNC-ID-001",
+    "source_id": "SRC-ID-2019-PERMA04",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-002",
+    "source_id": "SRC-ID-2023-UU01",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-003",
+    "source_id": "SRC-ID-2019-UU16",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-004",
+    "source_id": "SRC-ID-2026-UU27",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PENDING_REVIEW",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-005",
+    "source_id": "SRC-ID-2021-PP07",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-006",
+    "source_id": "SRC-ID-2021-PP18",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-007",
+    "source_id": "SRC-ID-2009-UU25",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-008",
+    "source_id": "SRC-ID-1999-UU08",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-009",
+    "source_id": "SRC-ID-2011-UU16",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  },
+  {
+    "record_id": "PRVNC-ID-010",
+    "source_id": "SRC-ID-2022-UU27",
+    "transformation_method": "AI_ASSISTED_PLAIN_LANGUAGE_EXTRACTION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_PENDING_REVIEW",
+    "quality_status": "PASSED_VALIDATION",
+    "publication_classification": "INTERNAL_DRAFT",
+    "approval_status": "PENDING_HUMAN_REVIEW",
+    "publication_date": "2026-11-23"
+  }
+]

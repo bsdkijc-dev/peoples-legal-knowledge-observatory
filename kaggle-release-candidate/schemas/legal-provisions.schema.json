@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 02: Legal Provisions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "provision_id",
+      "source_id",
+      "article_number",
+      "paragraph_number",
+      "original_text_reference",
+      "legal_topic",
+      "effective_period",
+      "verification_status"
+    ],
+    "properties": {
+      "provision_id": {
+        "type": "string",
+        "pattern": "^PRV-[A-Z0-9-]+$"
+      },
+      "source_id": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z0-9-]+$"
+      },
+      "article_number": {
+        "type": "string"
+      },
+      "paragraph_number": {
+        "type": "string"
+      },
+      "original_text_reference": {
+        "type": "string"
+      },
+      "legal_topic": {
+        "type": "string"
+      },
+      "effective_period": {
+        "type": "string"
+      },
+      "verification_status": {
+        "type": "string",
+        "enum": [
+          "VERIFIED",
+          "UNVERIFIED",
+          "CONFLICT_FLAGGED",
+          "SYNTHETIC_TEST"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

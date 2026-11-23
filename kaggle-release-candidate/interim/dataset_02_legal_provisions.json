@@ -1,0 +1,142 @@
+[
+  {
+    "provision_id": "PRV-ID-LK01-001",
+    "source_id": "SRC-ID-2019-PERMA04",
+    "article_number": "Pasal 3",
+    "paragraph_number": "Ayat (1)",
+    "original_text_reference": "Mengubah Perma No. 2 Tahun 2015: Gugatan sederhana diajukan terhadap perkara cidera janji dan/atau perbuatan melawan hukum dengan nilai gugatan materiil paling banyak Rp500.000.000,00 dan dapat didaftarkan secara elektronik.",
+    "legal_topic": "LK01 - Gugatan Sederhana dan e-Court",
+    "effective_period": "2019-08-20 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK03-001",
+    "source_id": "SRC-ID-2023-UU01",
+    "article_number": "Pasal 622",
+    "paragraph_number": "Ayat (1)",
+    "original_text_reference": "Mencabut beberapa ketentuan dan undang-undang pidana terdahulu sebagaimana diatur dalam Pasal 622 ayat (1); KUHP Nasional mulai berlaku setelah 3 tahun sejak diundangkan (02 Januari 2026).",
+    "legal_topic": "LK03 - Pemberlakuan KUHP Nasional 2026",
+    "effective_period": "2026-01-02 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK03-002",
+    "source_id": "SRC-ID-2026-UU01",
+    "article_number": "Ketentuan Penyesuaian (Batang Tubuh)",
+    "paragraph_number": "Umum",
+    "original_text_reference": "Penyesuaian terhadap ketentuan pidana dalam undang-undang di luar UU No. 1 Tahun 2023 tentang KUHP dan Peraturan Daerah dengan Buku Kesatu UU No. 1 Tahun 2023.",
+    "legal_topic": "LK03 - Penyesuaian Pidana 2026",
+    "effective_period": "2026-01-02 s.d. berlaku",
+    "verification_status": "UNVERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK04-001",
+    "source_id": "SRC-ID-2019-UU16",
+    "article_number": "Pasal 7",
+    "paragraph_number": "Ayat (1)",
+    "original_text_reference": "Perkawinan hanya diizinkan apabila pria dan wanita sudah mencapai umur 19 (sembilan belas) tahun (menindaklanjuti Putusan MK No. 22/PUU-XV/2017).",
+    "legal_topic": "LK04 - Batas Usia Minimal Perkawinan",
+    "effective_period": "2019-10-15 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK05-001",
+    "source_id": "SRC-ID-2026-UU27",
+    "article_number": "Batang Tubuh (Pasal menunggu verifikasi naskah lengkap)",
+    "paragraph_number": "Umum",
+    "original_text_reference": "Mencabut UU No. 13 Tahun 2003 serta Pasal 80 huruf a dan Pasal 81 UU No. 6 Tahun 2023; mengatur larangan menahan ijazah/dokumen pribadi pekerja sebagai jaminan, batas PKWT maksimal 2 tahun (dapat diperpanjang maks. 2 kali @ 1 tahun), dan jaminan sosial sektor informal.",
+    "legal_topic": "LK05 - Pelindungan Pekerja, PKWT, dan Larangan Penahanan Ijazah",
+    "effective_period": "2026-10-28 s.d. berlaku",
+    "verification_status": "UNVERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK06-001",
+    "source_id": "SRC-ID-2021-PP07",
+    "article_number": "Pasal 35 dan Pasal 36",
+    "paragraph_number": "Umum",
+    "original_text_reference": "Kriteria skala usaha mikro, kecil, dan menengah berdasarkan modal usaha untuk pendirian/pendaftaran serta hasil penjualan tahunan untuk pemberdayaan UMKM.",
+    "legal_topic": "LK06 - Kriteria dan Legalitas UMKM",
+    "effective_period": "2021-02-02 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK06-002",
+    "source_id": "SRC-ID-2021-PP07",
+    "article_number": "Pasal 69",
+    "paragraph_number": "Ayat (1)",
+    "original_text_reference": "Pengelolaan terpadu Usaha Mikro dan Usaha Kecil bagi kelompok usaha yang terkait dalam rantai produk umum, keterampilan tenaga kerja serupa, atau teknologi yang saling melengkapi secara terintegrasi.",
+    "legal_topic": "LK06 - Pengelolaan Terpadu UMKM",
+    "effective_period": "2021-02-02 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK07-001",
+    "source_id": "SRC-ID-2021-PP18",
+    "article_number": "Pasal 84",
+    "paragraph_number": "Ayat (1)",
+    "original_text_reference": "Penyelenggaraan dan pelaksanaan Pendaftaran Tanah dapat dilakukan secara elektronik.",
+    "legal_topic": "LK07 - Pendaftaran Tanah dan Sertipikat Elektronik",
+    "effective_period": "2021-02-02 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK08-001",
+    "source_id": "SRC-ID-2009-UU25",
+    "article_number": "Pasal 18",
+    "paragraph_number": "Umum",
+    "original_text_reference": "Masyarakat berhak mengetahui kebenaran isi standar pelayanan serta hak-hak lain dalam penyelenggaraan pelayanan publik.",
+    "legal_topic": "LK08 - Hak Masyarakat atas Standar Pelayanan Publik",
+    "effective_period": "2009-07-18 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK08-002",
+    "source_id": "SRC-ID-2009-UU25",
+    "article_number": "Pasal 39",
+    "paragraph_number": "Ayat (1)-(3)",
+    "original_text_reference": "Peran serta masyarakat dalam penyelenggaraan pelayanan publik dimulai sejak penyusunan standar pelayanan sampai dengan evaluasi, dan masyarakat dapat membentuk lembaga pengawasan pelayanan publik.",
+    "legal_topic": "LK08 - Peran Serta dan Pengawasan Pelayanan Publik",
+    "effective_period": "2009-07-18 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK09-001",
+    "source_id": "SRC-ID-1999-UU08",
+    "article_number": "Pasal 4",
+    "paragraph_number": "Huruf a-i",
+    "original_text_reference": "Hak konsumen meliputi hak atas kenyamanan, keamanan, dan keselamatan dalam mengonsumsi barang dan/atau jasa serta hak memilih, memperoleh informasi benar, didengar pendapatnya, dan mendapat advokasi/penyelesaian sengketa.",
+    "legal_topic": "LK09 - Hak Dasar Konsumen",
+    "effective_period": "2000-04-20 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK10-001",
+    "source_id": "SRC-ID-2011-UU16",
+    "article_number": "Pasal 16 dan Pasal 19",
+    "paragraph_number": "Ayat (1) dan Ayat (2)",
+    "original_text_reference": "Tata cara penyaluran dana Bantuan Hukum kepada Pemberi Bantuan Hukum (OBH) dan penyelenggaraan Bantuan Hukum oleh Pemerintah Daerah melalui Peraturan Daerah.",
+    "legal_topic": "LK10 - Penyelenggaraan dan Pendanaan Bantuan Hukum Gratis",
+    "effective_period": "2011-11-02 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK11-001",
+    "source_id": "SRC-ID-2022-UU27",
+    "article_number": "Pasal 27 dan Pasal 30",
+    "paragraph_number": "Pasal 27; Pasal 30 Ayat (1)-(2)",
+    "original_text_reference": "Pengendali Data Pribadi wajib memproses Data Pribadi secara terbatas, spesifik, sah, dan transparan (Pasal 27) serta memperbarui/memperbaiki ketidakakuratan paling lambat 3 x 24 jam sejak menerima permintaan (Pasal 30).",
+    "legal_topic": "LK11 - Kewajiban Pengendali Data Pribadi",
+    "effective_period": "2022-10-17 s.d. berlaku",
+    "verification_status": "VERIFIED"
+  },
+  {
+    "provision_id": "PRV-ID-LK11-002",
+    "source_id": "SRC-ID-2024-UU01",
+    "article_number": "Pasal 27A jo. Pasal 45",
+    "paragraph_number": "Ayat (4)",
+    "original_text_reference": "Menyerang kehormatan atau nama baik orang lain melalui sistem elektronik (frasa 'suatu hal' dimaknai secara bersyarat oleh Putusan MKRI No. 105/PUU-XXII/2024).",
+    "legal_topic": "LK11 - Etika Informasi Elektronik dan Putusan MKRI",
+    "effective_period": "2024-01-02 s.d. berlaku (dengan pemaknaan bersyarat MKRI)",
+    "verification_status": "CONFLICT_FLAGGED"
+  }
+]
