@@ -1,0 +1,114 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1a202c;
+  --muted: #4a5568;
+  --accent: #0f4c81;
+  --border: #cbd5e0;
+  --warn-bg: #fffbeb;
+  --warn-border: #d97706;
+  --card-bg: #f8fafc;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  z-index: 100;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.safe-banner {
+  background: var(--warn-bg);
+  border-bottom: 2px solid var(--warn-border);
+  padding: 0.75rem 1.25rem;
+  font-size: 0.92rem;
+}
+
+.site-header {
+  background: var(--accent);
+  color: #fff;
+  padding: 1.5rem 0;
+}
+.site-header h1 { margin: 0.25rem 0; font-size: 1.75rem; }
+.eyebrow { margin: 0; font-size: 0.85rem; opacity: 0.9; }
+.tagline { margin: 0; font-size: 1.05rem; opacity: 0.95; }
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.controls input, .controls select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+}
+.card h3 { margin-top: 0.4rem; font-size: 1.1rem; }
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: #e2e8f0;
+}
+.badge-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.sources-section { margin-top: 2rem; }
+.site-footer {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}

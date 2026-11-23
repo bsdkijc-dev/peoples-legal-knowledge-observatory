@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People's Legal Knowledge Observatory (PLKO) — Prototipe Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+
+  <div class="safe-banner" role="alert">
+    <strong>MODE AMAN (PROTOTIPE RISET INDEPENDEN):</strong> PLKO adalah proyek riset independen dan <strong>tidak</strong> mengklaim dukungan atau perwakilan resmi Mahkamah Agung RI maupun lembaga pemerintah mana pun. Seluruh draf materi berstatus <code>PENDING_HUMAN_REVIEW</code> dan bukan nasihat hukum individual.
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <p class="eyebrow">MA Open Justice &amp; Public Prosperity Initiative 2027–2030</p>
+      <h1>People's Legal Knowledge Observatory (PLKO)</h1>
+      <p class="tagline">Pengetahuan Hukum untuk Semua. Keadilan Tanpa Hambatan.</p>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section aria-labelledby="controls-heading" class="controls">
+      <h2 id="controls-heading" class="sr-only">Filter dan Pencarian Topik Hukum</h2>
+      <label for="search-input">Cari topik atau kata kunci:</label>
+      <input id="search-input" type="search" placeholder="Contoh: gugatan sederhana, PKWT, bantuan hukum..." autocomplete="off">
+      <label for="domain-filter">Domain Hukum:</label>
+      <select id="domain-filter">
+        <option value="ALL">Semua Domain (10 Topik Awal)</option>
+        <option value="LK01">LK01 - Peradilan &amp; Gugatan Sederhana</option>
+        <option value="LK03">LK03 - Hukum Pidana (KUHP 2026)</option>
+        <option value="LK04">LK04 - Hukum Keluarga</option>
+        <option value="LK05">LK05 - Ketenagakerjaan (UU 27/2026)</option>
+        <option value="LK06">LK06 - UMKM &amp; Usaha</option>
+        <option value="LK07">LK07 - Pertanahan</option>
+        <option value="LK08">LK08 - Pelayanan Publik</option>
+        <option value="LK09">LK09 - Perlindungan Konsumen</option>
+        <option value="LK10">LK10 - Bantuan Hukum Gratis</option>
+        <option value="LK11">LK11 - Data Pribadi &amp; Digital</option>
+      </select>
+    </section>
+
+    <section aria-labelledby="topics-heading">
+      <h2 id="topics-heading">Pengetahuan Hukum Bahasa Sederhana (Draf Awal)</h2>
+      <div id="topics-list" class="card-grid" aria-live="polite"></div>
+    </section>
+
+    <section aria-labelledby="sources-heading" class="sources-section">
+      <h2 id="sources-heading">Sumber Hukum Resmi Terverifikasi</h2>
+      <ul class="source-links">
+        <li><a href="https://peraturan.bpk.go.id/" target="_blank" rel="noopener noreferrer">Database Peraturan JDIH BPK</a></li>
+        <li><a href="https://jdihn.go.id/" target="_blank" rel="noopener noreferrer">Jaringan Dokumentasi dan Informasi Hukum Nasional (JDIHN)</a></li>
+        <li><a href="https://ecourt.mahkamahagung.go.id/" target="_blank" rel="noopener noreferrer">e-Court Mahkamah Agung RI</a></li>
+        <li><a href="https://www.mkri.id/" target="_blank" rel="noopener noreferrer">Mahkamah Konstitusi RI (MKRI)</a></li>
+        <li><a href="https://bphn.go.id/layanan/bantuan-hukum" target="_blank" rel="noopener noreferrer">Layanan Bantuan Hukum BPHN</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>PLKO v0.1.0 — Proyek Riset Kepentingan Publik Independen. Terakhir diperbarui: 2026-11-23.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

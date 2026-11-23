@@ -1,0 +1,56 @@
+[
+  {
+    "assessment_id": "ASM-ID-001",
+    "topic": "LK01 - Gugatan Sederhana",
+    "question": "Berapakah batas maksimal nilai gugatan materiil untuk mengajukan Gugatan Sederhana menurut Perma No. 4 Tahun 2019?",
+    "correct_answer_reference": "PRV-ID-LK01-001",
+    "difficulty": "BASIC",
+    "learning_objective": "Mengidentifikasi batas nilai sengketa Gugatan Sederhana yang berlaku.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "assessment_id": "ASM-ID-002",
+    "topic": "LK04 - Batas Usia Perkawinan",
+    "question": "Berapakah batas usia minimal perkawinan bagi perempuan dan laki-laki setelah berlakunya UU No. 16 Tahun 2019?",
+    "correct_answer_reference": "PRV-ID-LK04-001",
+    "difficulty": "BASIC",
+    "learning_objective": "Memahami persamaan batas usia minimal perkawinan (19 tahun).",
+    "reviewer_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "assessment_id": "ASM-ID-003",
+    "topic": "LK10 - Bantuan Hukum Gratis",
+    "question": "Bolehkah Organisasi Bantuan Hukum (OBH) memungut bayaran dari penerima bantuan hukum yang memenuhi syarat UU No. 16 Tahun 2011?",
+    "correct_answer_reference": "PRV-ID-LK10-001",
+    "difficulty": "BASIC",
+    "learning_objective": "Membedakan layanan bantuan hukum gratis yang didanai negara dari jasa berbayar.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "assessment_id": "ASM-ID-004",
+    "topic": "LK11 - Pelindungan Data Pribadi",
+    "question": "Berapa lama batas waktu maksimal bagi Pengendali Data Pribadi untuk memperbaiki ketidakakuratan data setelah menerima permintaan sah dari Subjek Data Pribadi?",
+    "correct_answer_reference": "PRV-ID-LK11-001",
+    "difficulty": "INTERMEDIATE",
+    "learning_objective": "Mengetahui hak perbaikan data pribadi (3 x 24 jam) menurut Pasal 30 UU PDP.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "assessment_id": "ASM-ID-005",
+    "topic": "LK08 - Pelayanan Publik",
+    "question": "Apakah masyarakat memiliki hak untuk mengetahui isi standar pelayanan publik dan membentuk lembaga pengawasan pelayanan publik?",
+    "correct_answer_reference": "PRV-ID-LK08-002",
+    "difficulty": "INTERMEDIATE",
+    "learning_objective": "Mengidentifikasi hak partisipasi dan pengawasan warga menurut Pasal 18 dan Pasal 39 UU No. 25 Tahun 2009.",
+    "reviewer_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "assessment_id": "ASM-ID-006",
+    "topic": "LK07 - Pendaftaran Tanah Elektronik",
+    "question": "Peraturan Pemerintah manakah yang menjadi dasar penyelenggaraan pendaftaran tanah secara elektronik?",
+    "correct_answer_reference": "PRV-ID-LK07-001",
+    "difficulty": "INTERMEDIATE",
+    "learning_objective": "Mengenali dasar hukum pendaftaran tanah elektronik (Pasal 84 PP No. 18 Tahun 2021).",
+    "reviewer_status": "PENDING_HUMAN_REVIEW"
+  }
+]

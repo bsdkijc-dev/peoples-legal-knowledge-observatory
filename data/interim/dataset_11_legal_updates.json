@@ -1,0 +1,42 @@
+[
+  {
+    "update_id": "UPD-ID-001",
+    "source_id": "SRC-ID-2026-UU27",
+    "change_type": "REPEAL",
+    "affected_provisions": ["PRV-ID-LK05-001"],
+    "affected_content_ids": ["KNW-ID-004", "QST-ID-004", "ANS-ID-004", "AVC-ID-003"],
+    "impact_assessment": "UU No. 27 Tahun 2026 (berlaku 2026-10-28) mencabut UU No. 13 Tahun 2003 serta Pasal 80 huruf a dan Pasal 81 UU No. 6 Tahun 2023; seluruh materi ketenagakerjaan wajib merujuk pada UU baru ini.",
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "update_date": "2026-10-28"
+  },
+  {
+    "update_id": "UPD-ID-002",
+    "source_id": "SRC-ID-2023-UU01",
+    "change_type": "AMENDMENT",
+    "affected_provisions": ["PRV-ID-LK03-001", "PRV-ID-LK03-002"],
+    "affected_content_ids": ["KNW-ID-002", "QST-ID-002", "ANS-ID-002"],
+    "impact_assessment": "UU No. 1 Tahun 2023 (KUHP Nasional) mulai berlaku 2026-01-02 dan diubah/disesuaikan melalui UU No. 1 Tahun 2026 tentang Penyesuaian Pidana.",
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "update_date": "2026-01-02"
+  },
+  {
+    "update_id": "UPD-ID-003",
+    "source_id": "SRC-ID-2024-UU01",
+    "change_type": "JUDICIAL_REVIEW",
+    "affected_provisions": ["PRV-ID-LK11-002"],
+    "affected_content_ids": ["KNW-ID-010"],
+    "impact_assessment": "Putusan MKRI No. 105/PUU-XXII/2024 dan No. 115/PUU-XXII/2024 memberikan pemaknaan bersyarat terhadap Pasal 27A jo. Pasal 45 ayat (4) dan Pasal 28 ayat (2) UU No. 1 Tahun 2024.",
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "update_date": "2026-11-23"
+  },
+  {
+    "update_id": "UPD-ID-004",
+    "source_id": "SRC-ID-2022-UU27",
+    "change_type": "JUDICIAL_REVIEW",
+    "affected_provisions": ["PRV-ID-LK11-001"],
+    "affected_content_ids": ["KNW-ID-010", "QST-ID-010", "ANS-ID-010"],
+    "impact_assessment": "Uji materi MKRI terhadap kata 'dan' dalam Pasal 53 ayat (1) huruf b UU No. 27 Tahun 2022 (dimaknai 'dan/atau'); tidak mengubah kewajiban 3x24 jam pada Pasal 30.",
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "update_date": "2026-11-23"
+  }
+]

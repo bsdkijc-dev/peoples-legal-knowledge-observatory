@@ -1,0 +1,42 @@
+[
+  {
+    "content_id": "AVC-ID-001",
+    "format": "AUDIO_SCRIPT",
+    "title": "Naskah Audio 60 Detik: Bantuan Hukum Gratis bagi Warga Tidak Mampu",
+    "script": "Halo warga. Tahukah Anda bahwa warga tidak mampu berhak mendapatkan pendampingan pengacara secara gratis? Berdasarkan Undang-Undang Nomor 16 Tahun 2011 tentang Bantuan Hukum, negara menanggung biaya bantuan hukum melalui Organisasi Bantuan Hukum atau OBH yang terakreditasi oleh BPHN. Layanan ini mencakup pendampingan di pengadilan maupun konsultasi di luar pengadilan. Syaratnya, siapkan KTP dan surat keterangan tidak mampu atau kartu program kesejahteraan sosial yang berlaku di daerah Anda. Informasi daftar OBH resmi tersedia di bphn.go.id. Catatan: informasi ini bersifat edukasi umum dan masih menunggu peninjauan ahli hukum.",
+    "source_references": ["SRC-ID-2011-UU16"],
+    "target_audience": "Persons with disabilities",
+    "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+    "approval_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "content_id": "AVC-ID-002",
+    "format": "AUDIO_SCRIPT",
+    "title": "Naskah Audio 60 Detik: Mengenal Gugatan Sederhana untuk Usaha Kecil",
+    "script": "Untuk pelaku usaha mikro dan kecil yang menghadapi sengketa utang piutang atau perjanjian bernilai hingga lima ratus juta rupiah, ada jalur Gugatan Sederhana di Pengadilan Negeri. Aturan ini tercantum dalam Peraturan Mahkamah Agung Nomor 4 Tahun 2019. Prosesnya dirancang lebih cepat dan pembuktiannya lebih sederhana dibandingkan gugatan biasa. Pendaftaran perkara juga dapat dilakukan secara daring melalui layanan resmi e-Court Mahkamah Agung. Pastikan Anda memeriksa syarat batas nilai dan pengecualian sengketa sebelum mendaftar. Informasi ini masih berstatus draf menunggu tinjauan hukum manusia.",
+    "source_references": ["SRC-ID-2015-PERMA02", "SRC-ID-2019-PERMA04"],
+    "target_audience": "Micro and small enterprises",
+    "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+    "approval_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "content_id": "AVC-ID-003",
+    "format": "LOW_BANDWIDTH_TEXT",
+    "title": "Ringkasan Teks Ringan: Hak Pekerja dan Larangan Penahanan Ijazah (2026)",
+    "script": "RINGKASAN HAK PEKERJA (UU NO. 27 TAHUN 2026 - BERLAKU 28 OKTOBER 2026): 1) Pemberi kerja dilarang mensyaratkan atau menahan ijazah maupun dokumen pribadi pekerja sebagai jaminan kerja. 2) Kontrak PKWT maksimal 2 tahun dan dapat diperpanjang maksimal 2 kali masing-masing 1 tahun. 3) Pekerja sektor informal mendapat pengaturan pelindungan jaminan sosial. STATUS: Draf menunggu verifikasi nomor pasal lengkap oleh peninjau hukum manusia.",
+    "source_references": ["SRC-ID-2026-UU27"],
+    "target_audience": "Workers and informal workers",
+    "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+    "approval_status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "content_id": "AVC-ID-004",
+    "format": "PRINTABLE_GUIDE",
+    "title": "Panduan Cetak Desa: Hak Warga atas Standar Pelayanan Publik",
+    "script": "PANDUAN CETAK PELAYANAN PUBLIK (UU NO. 25 TAHUN 2009): Setiap warga berhak mengetahui syarat, waktu, dan biaya resmi pelayanan di kantor pemerintah (Pasal 18). Warga juga berhak ikut mengawasi dan menyampaikan pengaduan jika pelayanan tidak sesuai standar (Pasal 39). Simpan tanda terima layanan sebagai bukti jika perlu melapor ke kanal pengaduan instansi atau Ombudsman RI. STATUS: Menunggu tinjauan hukum manusia.",
+    "source_references": ["SRC-ID-2009-UU25"],
+    "target_audience": "Rural communities",
+    "accessibility_status": "PENDING_ACCESSIBILITY_REVIEW",
+    "approval_status": "PENDING_HUMAN_REVIEW"
+  }
+]

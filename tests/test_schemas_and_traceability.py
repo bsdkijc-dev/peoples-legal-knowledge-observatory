@@ -1,11 +1,8 @@
 import json
-import re
 import shutil
 import tempfile
 import unittest
 from pathlib import Path
-
-import jsonschema
 
 from src.validation.traceability_validator import SCHEMA_MAP, validate_directory
 
@@ -13,7 +10,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 SYNTH_DIR = REPO_ROOT / "data" / "synthetic"
 INTERIM_DIR = REPO_ROOT / "data" / "interim"
-NIK_PATTERN = re.compile(r"\b\d{16}\b")
+NOTEBOOKS_DIR = REPO_ROOT / "notebooks"
+WEBSITE_DIR = REPO_ROOT / "website"
 
 
 class TestPLKOValidation(unittest.TestCase):
@@ -26,44 +24,19 @@ class TestPLKOValidation(unittest.TestCase):
         ok, errors = validate_directory(SYNTH_DIR, SCHEMAS_DIR)
         self.assertTrue(ok, f"Unexpected errors: {errors}")
 
-    def test_interim_datasets_01_to_07_pass_schema_and_traceability(self):
-        interim_files = [
-            ("dataset_01_legal_sources.json", "legal-sources.schema.json"),
-            ("dataset_02_legal_provisions.json", "legal-provisions.schema.json"),
-            ("dataset_03_knowledge_articles.json", "knowledge-articles.schema.json"),
-            ("dataset_04_questions.json", "questions.schema.json"),
-            ("dataset_05_answers.json", "answers.schema.json"),
-            ("dataset_06_procedure_guides.json", "procedure-guides.schema.json"),
-            ("dataset_07_terminology.json", "terminology.schema.json"),
-        ]
-        loaded = {}
-        for d_name, s_name in interim_files:
-            d_path = INTERIM_DIR / d_name
-            self.assertTrue(d_path.exists(), f"Missing {d_name}")
-            data = json.loads(d_path.read_text(encoding="utf-8"))
-            schema = json.loads((SCHEMAS_DIR / s_name).read_text(encoding="utf-8"))
-            jsonschema.validate(instance=data, schema=schema)
-            self.assertFalse(NIK_PATTERN.search(json.dumps(data)), f"Potential PII in {d_name}")
-            loaded[d_name] = data
+    def test_all_twelve_interim_datasets_pass_traceability(self):
+        ok, errors = validate_directory(INTERIM_DIR, SCHEMAS_DIR)
+        self.assertTrue(ok, f"Unexpected interim errors: {errors}")
 
-        source_ids = {r["source_id"] for r in loaded["dataset_01_legal_sources.json"]}
-        provision_ids = {r["provision_id"] for r in loaded["dataset_02_legal_provisions.json"]}
-        question_ids = {r["question_id"] for r in loaded["dataset_04_questions.json"]}
-
-        for r in loaded["dataset_02_legal_provisions.json"]:
-            self.assertIn(r["source_id"], source_ids)
-        for r in loaded["dataset_03_knowledge_articles.json"]:
-            for sid in r["source_ids"]:
-                self.assertIn(sid, source_ids)
-        for r in loaded["dataset_04_questions.json"]:
-            for sid in r["source_ids"]:
-                self.assertIn(sid, source_ids)
-        for r in loaded["dataset_05_answers.json"]:
-            self.assertIn(r["question_id"], question_ids)
-            for pid in r["source_provisions"]:
-                self.assertIn(pid, provision_ids)
-        for r in loaded["dataset_07_terminology.json"]:
-            self.assertIn(r["source_reference"], source_ids)
+    def test_eight_notebooks_and_website_exist(self):
+        nb_files = sorted(NOTEBOOKS_DIR.glob("0[1-8]_*.ipynb"))
+        self.assertEqual(len(nb_files), 8, f"Expected 8 notebooks, found {len(nb_files)}")
+        for nb in nb_files:
+            parsed = json.loads(nb.read_text(encoding="utf-8"))
+            self.assertEqual(parsed["nbformat"], 4)
+        self.assertTrue((WEBSITE_DIR / "index.html").exists())
+        self.assertTrue((WEBSITE_DIR / "styles.css").exists())
+        self.assertTrue((WEBSITE_DIR / "app.js").exists())
 
     def test_orphan_source_id_is_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
