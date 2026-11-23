@@ -1,0 +1,12 @@
+[
+  {
+    "provision_id": "PRV-SYNTH-001",
+    "source_id": "SRC-SYNTH-001",
+    "article_number": "Pasal 1 (Synthetic)",
+    "paragraph_number": "Ayat (1)",
+    "original_text_reference": "[SYNTHETIC TEST] Contoh teks ketentuan hukum untuk pengujian skema.",
+    "legal_topic": "Akses Bantuan Hukum (Synthetic)",
+    "effective_period": "2026-01-15 s.d. berlaku",
+    "verification_status": "SYNTHETIC_TEST"
+  }
+]

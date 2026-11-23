@@ -1,0 +1,17 @@
+[
+  {
+    "knowledge_id": "KNW-SYNTH-001",
+    "title": "[SYNTHETIC TEST] Panduan Contoh Bantuan Hukum",
+    "legal_domain": "LK10",
+    "audience": [
+      "General public",
+      "Rural communities"
+    ],
+    "plain_language_summary": "[SYNTHETIC TEST] Ringkasan bahasa sederhana untuk pengujian validasi.",
+    "source_ids": [
+      "SRC-SYNTH-001"
+    ],
+    "review_status": "SYNTHETIC_TEST",
+    "last_verified_date": "2026-11-23"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 01: Official Legal Sources",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "source_id",
+      "title",
+      "document_type",
+      "issuing_authority",
+      "document_number",
+      "publication_date",
+      "effective_date",
+      "legal_status",
+      "official_url",
+      "verification_status"
+    ],
+    "properties": {
+      "source_id": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z0-9-]+$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 3
+      },
+      "document_type": {
+        "type": "string"
+      },
+      "issuing_authority": {
+        "type": "string"
+      },
+      "document_number": {
+        "type": "string"
+      },
+      "publication_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "effective_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "legal_status": {
+        "type": "string",
+        "enum": [
+          "BERLAKU",
+          "DIUBAH",
+          "DICABUT",
+          "UJI_MATERI",
+          "SYNTHETIC_TEST"
+        ]
+      },
+      "official_url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "verification_status": {
+        "type": "string",
+        "enum": [
+          "VERIFIED",
+          "UNVERIFIED",
+          "CONFLICT_FLAGGED",
+          "SYNTHETIC_TEST"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

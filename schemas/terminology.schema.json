@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 07: Legal Terminology Dictionary",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "term_id",
+      "legal_term",
+      "plain_language_definition",
+      "example",
+      "domain",
+      "source_reference",
+      "review_status"
+    ],
+    "properties": {
+      "term_id": {
+        "type": "string",
+        "pattern": "^TRM-[A-Z0-9-]+$"
+      },
+      "legal_term": {
+        "type": "string"
+      },
+      "plain_language_definition": {
+        "type": "string"
+      },
+      "example": {
+        "type": "string"
+      },
+      "domain": {
+        "type": "string",
+        "enum": [
+          "LK01",
+          "LK02",
+          "LK03",
+          "LK04",
+          "LK05",
+          "LK06",
+          "LK07",
+          "LK08",
+          "LK09",
+          "LK10",
+          "LK11",
+          "LK12"
+        ]
+      },
+      "source_reference": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z0-9-]+$"
+      },
+      "review_status": {
+        "type": "string",
+        "enum": [
+          "PENDING_HUMAN_REVIEW",
+          "APPROVED",
+          "REJECTED",
+          "SYNTHETIC_TEST"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

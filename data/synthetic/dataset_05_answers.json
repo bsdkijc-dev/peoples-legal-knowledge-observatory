@@ -1,0 +1,13 @@
+[
+  {
+    "answer_id": "ANS-SYNTH-001",
+    "question_id": "QST-SYNTH-001",
+    "answer_text": "[SYNTHETIC TEST] Jawaban contoh berbasis ketentuan sintetis.",
+    "source_provisions": [
+      "PRV-SYNTH-001"
+    ],
+    "limitations": "Data sintetis untuk pengujian sistem, bukan informasi hukum nyata.",
+    "reviewer_status": "SYNTHETIC_TEST",
+    "verification_date": "2026-11-23"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "question_id": "QST-SYNTH-001",
+    "question_text": "[SYNTHETIC TEST] Bagaimana cara mengajukan bantuan hukum contoh?",
+    "audience_category": "Rural communities",
+    "legal_domain": "LK10",
+    "source_ids": [
+      "SRC-SYNTH-001"
+    ],
+    "response_status": "SYNTHETIC_TEST",
+    "review_status": "SYNTHETIC_TEST"
+  }
+]

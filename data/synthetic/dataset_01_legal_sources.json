@@ -1,0 +1,14 @@
+[
+  {
+    "source_id": "SRC-SYNTH-001",
+    "title": "[SYNTHETIC TEST] Peraturan Contoh Tentang Akses Keadilan",
+    "document_type": "Undang-Undang (Synthetic)",
+    "issuing_authority": "Lembaga Legislatif (Synthetic)",
+    "document_number": "UU No. 999 Tahun 2099 (Synthetic)",
+    "publication_date": "2026-01-15",
+    "effective_date": "2026-01-15",
+    "legal_status": "SYNTHETIC_TEST",
+    "official_url": "https://example.go.id/synthetic/uu-999-2099",
+    "verification_status": "SYNTHETIC_TEST"
+  }
+]

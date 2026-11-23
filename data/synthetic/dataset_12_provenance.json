@@ -1,0 +1,13 @@
+[
+  {
+    "record_id": "PRVNC-SYNTH-001",
+    "source_id": "SRC-SYNTH-001",
+    "transformation_method": "SYNTHETIC_FIXTURE_GENERATION",
+    "AI_assistance_status": "AI_ASSISTED",
+    "human_reviewer": "UNASSIGNED_SYNTHETIC",
+    "quality_status": "SYNTHETIC_TEST",
+    "publication_classification": "SYNTHETIC_TEST",
+    "approval_status": "SYNTHETIC_TEST",
+    "publication_date": "2026-11-23"
+  }
+]

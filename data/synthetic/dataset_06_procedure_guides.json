@@ -1,0 +1,19 @@
+[
+  {
+    "guide_id": "GDE-SYNTH-001",
+    "procedure_name": "[SYNTHETIC TEST] Prosedur Contoh Permohonan Layanan",
+    "jurisdiction": "Nasional (Synthetic)",
+    "eligibility": "Warga negara memenuhi syarat contoh",
+    "required_documents": [
+      "KTP (Synthetic)",
+      "Formulir Permohonan (Synthetic)"
+    ],
+    "process_steps": [
+      "Langkah 1: Siapkan dokumen contoh",
+      "Langkah 2: Ajukan ke loket resmi contoh"
+    ],
+    "official_fee_reference": "Gratis (Synthetic Test)",
+    "official_service_url": "https://example.go.id/synthetic/layanan",
+    "verification_date": "2026-11-23"
+  }
+]

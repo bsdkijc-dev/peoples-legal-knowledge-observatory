@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 12: Provenance and Publication Register",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "record_id",
+      "source_id",
+      "transformation_method",
+      "AI_assistance_status",
+      "human_reviewer",
+      "quality_status",
+      "publication_classification",
+      "approval_status",
+      "publication_date"
+    ],
+    "properties": {
+      "record_id": {
+        "type": "string",
+        "pattern": "^PRVNC-[A-Z0-9-]+$"
+      },
+      "source_id": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z0-9-]+$"
+      },
+      "transformation_method": {
+        "type": "string"
+      },
+      "AI_assistance_status": {
+        "type": "string",
+        "enum": [
+          "AI_ASSISTED",
+          "HUMAN_ONLY"
+        ]
+      },
+      "human_reviewer": {
+        "type": "string"
+      },
+      "quality_status": {
+        "type": "string",
+        "enum": [
+          "PASSED_VALIDATION",
+          "PENDING_REVIEW",
+          "SYNTHETIC_TEST"
+        ]
+      },
+      "publication_classification": {
+        "type": "string",
+        "enum": [
+          "INTERNAL_DRAFT",
+          "SYNTHETIC_TEST",
+          "APPROVED_PUBLIC"
+        ]
+      },
+      "approval_status": {
+        "type": "string",
+        "enum": [
+          "DRAFT",
+          "PENDING_HUMAN_REVIEW",
+          "APPROVED",
+          "SYNTHETIC_TEST"
+        ]
+      },
+      "publication_date": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "additionalProperties": false
+  }
+}

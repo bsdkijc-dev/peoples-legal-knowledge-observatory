@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, schema suite, or research framework, please cite it as below."
+title: "People's Legal Knowledge Observatory (PLKO)"
+version: "0.1.0"
+date-released: "2026-11-23"
+type: software
+abstract: "An independent, verifiable, and reproducible legal knowledge research and publication system for Indonesian society under the MA Open Justice & Public Prosperity Initiative 2027-2030."
+authors:
+  - family-names: "Mustafa"
+    given-names: "Cecep"
+license: "MIT"
+keywords:
+  - "legal-literacy"
+  - "access-to-justice"
+  - "indonesia"
+  - "open-justice"
+  - "plain-language-law"

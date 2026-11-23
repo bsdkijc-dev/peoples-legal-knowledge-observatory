@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 10: Legal Knowledge Feedback",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "feedback_id",
+      "anonymous_user_category",
+      "content_id",
+      "comprehension_rating",
+      "usefulness_rating",
+      "feedback_category",
+      "consent_status"
+    ],
+    "properties": {
+      "feedback_id": {
+        "type": "string",
+        "pattern": "^FBK-[A-Z0-9-]+$"
+      },
+      "anonymous_user_category": {
+        "type": "string"
+      },
+      "content_id": {
+        "type": "string"
+      },
+      "comprehension_rating": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+      },
+      "usefulness_rating": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+      },
+      "feedback_category": {
+        "type": "string"
+      },
+      "consent_status": {
+        "type": "string",
+        "enum": [
+          "CONSENT_GIVEN",
+          "WITHDRAWN",
+          "SYNTHETIC_TEST"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 06: Legal Procedure Guides",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "guide_id",
+      "procedure_name",
+      "jurisdiction",
+      "eligibility",
+      "required_documents",
+      "process_steps",
+      "official_fee_reference",
+      "official_service_url",
+      "verification_date"
+    ],
+    "properties": {
+      "guide_id": {
+        "type": "string",
+        "pattern": "^GDE-[A-Z0-9-]+$"
+      },
+      "procedure_name": {
+        "type": "string"
+      },
+      "jurisdiction": {
+        "type": "string"
+      },
+      "eligibility": {
+        "type": "string"
+      },
+      "required_documents": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "process_steps": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "official_fee_reference": {
+        "type": "string"
+      },
+      "official_service_url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "verification_date": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "additionalProperties": false
+  }
+}

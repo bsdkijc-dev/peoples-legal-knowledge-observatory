@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dataset 11: Legal Update Register",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "update_id",
+      "source_id",
+      "change_type",
+      "affected_provisions",
+      "affected_content_ids",
+      "impact_assessment",
+      "review_status",
+      "update_date"
+    ],
+    "properties": {
+      "update_id": {
+        "type": "string",
+        "pattern": "^UPD-[A-Z0-9-]+$"
+      },
+      "source_id": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z0-9-]+$"
+      },
+      "change_type": {
+        "type": "string",
+        "enum": [
+          "AMENDMENT",
+          "REPEAL",
+          "JUDICIAL_REVIEW",
+          "IMPLEMENTING_REGULATION"
+        ]
+      },
+      "affected_provisions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "affected_content_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "impact_assessment": {
+        "type": "string"
+      },
+      "review_status": {
+        "type": "string",
+        "enum": [
+          "PENDING_HUMAN_REVIEW",
+          "IN_REVIEW",
+          "COMPLETED",
+          "SYNTHETIC_TEST"
+        ]
+      },
+      "update_date": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "additionalProperties": false
+  }
+}
