@@ -1,4 +1,18 @@
+<div align="center">
+
+<img src="assets/logo.svg" alt="People's Legal Knowledge Observatory (PLKO) Logo" width="140">
+
 # People's Legal Knowledge Observatory (PLKO)
+
+### Legal knowledge for everyone — transforming verified Indonesian law into traceable plain-language public literacy.
+
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE) ![Stack](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white) [![CI](https://github.com/bsdkijc-dev/peoples-legal-knowledge-observatory/actions/workflows/ci.yml/badge.svg)](https://github.com/bsdkijc-dev/peoples-legal-knowledge-observatory/actions/workflows/ci.yml)
+
+[Documentation](governance/) · [Repository](https://github.com/bsdkijc-dev/peoples-legal-knowledge-observatory)
+
+</div>
+
+---
 
 **Tagline:** Legal Knowledge for Everyone. Justice Without Barriers.  
 **Parent Initiative:** MA Open Justice & Public Prosperity Initiative 2027–2030  
@@ -60,3 +74,13 @@ python3 -m src.validation.traceability_validator --data-dir data/synthetic --sch
 cd peoples-legal-knowledge-observatory
 python3 -m unittest discover -s tests -v
 ```
+
+---
+
+<div align="center">
+
+**People's Legal Knowledge Observatory (PLKO)**
+
+[github.com/bsdkijc-dev/peoples-legal-knowledge-observatory](https://github.com/bsdkijc-dev/peoples-legal-knowledge-observatory)
+
+</div>
